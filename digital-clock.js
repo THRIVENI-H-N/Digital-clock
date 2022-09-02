@@ -45,7 +45,7 @@ let clock = () => {
     if (period === "AM" && 1 <= hours && hours <= 12) {
       document.getElementById("greeting-message").innerHTML = morningMessage;
       document.getElementById("greeting-text").innerHTML = morningText;
-      image.src = "./Component-30–1.svg";
+      image.src = "./Component-30–1(1).svg";
     } else if (period === "PM") {
       if (period === "PM" && (hours === 12 || (1 <= hours && hours <= 3))) {
         document.getElementById("greeting-message").innerHTML = afternoonMessage;
